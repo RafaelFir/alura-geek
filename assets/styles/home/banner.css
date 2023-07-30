@@ -1,0 +1,80 @@
+.banner__imagem {
+    width: 100%;
+    background: url('../../images/banner.jpg') no-repeat center / cover;
+    height: 258px;
+    position: relative;
+}
+
+.banner__informacao {
+    position: absolute;
+    left: 2rem;
+    top: 108px
+}
+
+.banner__titulo {
+    color: #fff;
+    font-size: 1.765rem;
+}
+
+.banner__descricao {
+    color: #fff;
+    font-size: 1.12rem;
+    margin: 0.7rem 0;
+    font-weight: 600;
+}
+
+.banner_botao {
+    background-color: #2A7AE4;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    font-size: 1.12rem;
+    font-weight: 600;
+}
+
+@media  screen and (min-width: 0px) {
+    .banner__imagem {
+        height: 264px;
+    }
+}
+
+@media  screen and (min-width: 481px) {
+    .banner__imagem {
+        height: 358px;
+    }
+
+    .banner__informacao {
+        left: 1.5rem;
+        top: 10rem;
+    }
+
+    .banner__titulo {
+        font-size: 3.28rem;
+    }
+
+    .banner__descricao {
+        font-size: 1.42rem;
+        margin: 1.35rem 0 1rem 0;
+    }
+}
+
+@media  screen and (min-width: 769px) {
+    .banner__imagem {
+        height: 322px;
+    }
+
+    .banner__informacao {
+        left: 8.0rem;
+        top: 9rem;
+    }
+
+    .banner__titulo {
+        font-size: 2.76rem;
+    }
+
+    .banner__descricao {
+        margin: 0.8rem 0 1rem 0;
+        font-size: 1.18rem;        
+    }
+
+}

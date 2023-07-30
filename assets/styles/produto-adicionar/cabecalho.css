@@ -1,0 +1,68 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra-pesquisa__icone-lupa {
+    width: 35px;
+}
+
+@media screen and (min-width: 0px) {
+    .cabecalho {
+        padding: 20px;
+    }
+
+    .barra-pesquisa__input {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .cabecalho {
+        width: 60%;
+        padding-left: 35px;
+    }
+
+    .logo {
+        width: 111px;
+    }
+
+    .barra-pesquisa {
+        width: auto;
+        display: flex;
+        width: 66%;
+    }
+
+    .barra-pesquisa__input {
+        display: inline-block;
+        border: none;
+        outline: unset;
+        background-color: #F5F5F5;
+        border-radius: 40px 0 0 40px;
+        padding: 10px 0 10px 20px;
+        width: 83%;
+    }
+
+    .barra-pesquisa__icone-lupa {
+        background-color: #F5F5F5;
+        border-radius: 0 40px 40px 0;
+        padding: 5px;
+        width: 30px;
+        padding: 5px 10px 5px 0;; 
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .cabecalho {
+        padding: 50px 33px 33px 100px ;
+    }
+    
+    .logo {
+        width: 150px;
+    }
+
+    .barra-pesquisa__input {
+        width: 62%;
+    }
+}

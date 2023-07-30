@@ -1,0 +1,148 @@
+.comunicacao {
+    align-items: center;
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    padding: 1.3rem;
+}
+
+.comunicacao-geral {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.comunicacao-geral__logo {
+    width: 50%;
+}
+
+.comunicacao-geral__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.comunicacao-geral__item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.comunicacao-geral__link {
+    color: #464646;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.fale-conosco {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 45px;
+    width: 90%;
+}
+
+.fale-conosco_titulo {
+    color: #464646;
+    font-weight: 700;
+}
+
+.fale-conosco__nome-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fale-conosco__nome-babel {
+    background-color: #fff;
+    color: #A2A2A2;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.8rem;
+}  
+
+.fale-conosco__nome-input {
+    border: none;
+    color: #464646;
+    font-size: 1.3rem;
+    outline: unset;
+    padding: 0 0.8rem 0.8rem 0.8rem;
+}
+
+.fale-conosco__mensagem {
+    border: none;
+    color: #A2A2A2;
+    font-size: 1.3rem;
+    outline: unset;
+    padding: 1.5rem 0.8rem;
+}
+
+.fale-conosco__botao {
+    background-color: #2A7AE4;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    outline: unset;
+    padding: 1.3rem;
+    width: 50%;
+}
+
+@media screen and (min-width: 481px) {
+    .comunicacao {
+        flex-direction: row;
+        gap: 10%
+
+    }
+
+    .comunicacao-geral {
+        align-items: start;
+        width: 37%;
+    }
+
+    .comunicacao-geral__logo {
+        width: 84%;
+    }
+
+    .comunicacao-geral__item {
+        align-items: start;
+    }
+
+    .comunicacao-geral__link {
+        font-size: 1rem;
+    }
+
+    .fale-conosco__mensagem {
+        height: 65px;
+    }
+
+    .fale-conosco__botao {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .comunicacao {
+        padding: 1rem 5rem;    
+    }
+    
+    .comunicacao-geral {
+        flex-direction: row;
+        width: 40%;
+        gap: 20%;
+    }
+    
+    .comunicacao-geral__logo {
+        width: 40%;
+    }
+    
+    .fale-conosco {
+        width: 50%;
+    }
+
+
+
+
+}

@@ -1,0 +1,255 @@
+.canal-comunicacao{
+    padding: 3rem 0 3rem 0;
+    margin: 3rem 0 3rem 0;
+    background-color: #EAF2FD;
+}
+
+.canal-comunicacao .container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    height: 206px;
+}
+
+.canal-comunicacao__logo-e-quem-somos-container {
+    display: flex;
+    width: 40%;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.logo-alura-geek {
+    padding-right: 2rem;
+    width: 140px;
+
+}
+
+.quem-somos {
+    display: flex;
+    flex-direction: column;
+}
+
+.quem-somos__lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quem-somos__item {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.quem-somos__link {
+    text-decoration: none;
+    color: #464646;
+
+}
+
+.fale-conosco {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 195px;
+    width: 50%;
+}
+
+.fale-conosco__titulo {
+    color: #464646;
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+}
+
+.fale-conosco__nome {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #A2A2A2;
+    padding: 0.4rem 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.fale-conosco__nome__label {
+    font-size: 0.8rem;
+}
+
+.fale-conosco__nome__input {
+    border: none;
+    outline: unset;
+    color: #464646;
+    padding-top: .2rem;
+    font-weight: 400;
+}
+
+.fale-conosco__mensagem {
+    height: 3rem;
+    border: none;
+    outline: unset;
+    margin-bottom: 0.8rem;
+}
+
+.fale-conosco__botao {
+    width: 35%;
+    padding: 0.8rem;
+    background-color: #2A7AE4;
+    color: #ffffff;
+    border: none;
+    font-weight: 400;
+}
+
+@media  screen and (min-width: 0px) {
+    .canal-comunicacao {
+        padding: 2rem 0 3rem 0;
+        margin: 0.5rem 0 3rem 0;
+        align-items: center;
+        height: 715px;
+    }
+
+    .canal-comunicacao .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .canal-comunicacao__logo-e-quem-somos-container {
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        padding: 0;
+    }
+
+    .logo-alura-geek {
+        width: 97%;
+        padding: 0 0 1.7rem 0;
+    }
+
+    .quem-somos__lista {
+        align-items: center;
+    }
+
+    .quem-somos__item {
+        font-size: 1.6943rem;
+        font-weight: 500;
+        margin-bottom: 24px;
+    }
+
+    .fale-conosco {
+        width: 90%;
+        margin-top: 15px;
+        height: 308px;;
+    }
+
+    .fale-conosco__titulo {
+        font-size: 1.5rem;
+    }
+
+    .fale-conosco__nome__label {
+        font-size: 1.3rem;
+    }
+
+    .fale-conosco__mensagem {
+        height: 100px;
+        margin-bottom: -58px;
+    }
+
+    .fale-conosco__botao {
+        margin-top: 74px;
+        width: 45%;
+    }
+}
+
+@media  screen and (min-width: 481px) {
+    .canal-comunicacao {
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        height: auto;
+    }
+
+    .canal-comunicacao .container {
+        flex-direction: row;
+        align-items: center;
+        height: auto;
+        width: 95%;
+
+    }
+
+    .canal-comunicacao__logo-e-quem-somos-container {
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        padding: 0;
+        margin-top: 42px;
+    }
+
+    .logo-alura-geek {
+        width: auto;
+        padding: 0;
+    }
+
+    .quem-somos__lista {
+        align-items: start;
+    }
+
+    .quem-somos__item {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 36px;
+    }
+
+    .fale-conosco {
+        width: 60%;
+        margin-top: 0px;
+        height: 308px;;
+    }
+
+    .fale-conosco__titulo {
+        font-size: 1.5rem;
+    }
+
+    .fale-conosco__nome__label {
+        font-size: 1.3rem;
+    }
+
+    .fale-conosco__mensagem {
+        height: 100px;
+        margin-bottom: -58px;
+    }
+
+    .fale-conosco__botao {
+        margin-top: 74px;
+        width: 45%;
+    }
+}
+
+@media  screen and (min-width: 769px) {
+        .canal-comunicacao {
+            margin: 3.5rem 0 3rem 0;
+        }
+
+        .canal-comunicacao__logo-e-quem-somos-container {
+            align-items: start;
+            flex-direction: row;
+            width: 40%;
+        }
+
+        .logo-alura-geek {
+            width: 40%;
+        }
+
+        .fale-conosco {
+            width: 50%;
+            margin-top: 54px;
+        }
+
+        .fale-conosco__titulo {
+            font-size: 1rem;
+        }
+
+        .fale-conosco__nome__label {
+            font-size: 1rem;
+        }
+
+        .quem-somos__item {
+            margin-bottom: 30px;
+        }
+}

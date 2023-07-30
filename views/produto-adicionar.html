@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="../assets/styles/normalize.css">
+    <link rel="stylesheet" href="../assets/styles/reset.css">
+    <link rel="stylesheet" href="../assets/styles/produto-adicionar/cabecalho.css">
+    <link rel="stylesheet" href="../assets/styles/produto-adicionar/adicionar-produtos.css">
+    <link rel="stylesheet" href="../assets/styles/produto-adicionar/fale-conosco.css">
+    <link rel="stylesheet" href="../assets/styles/produto-adicionar/rodape.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <img class="logo" src="../assets/images/logo.png" alt="Logo alura geek">
+            <div class="barra-pesquisa">
+                <input class="barra-pesquisa__input" type="text" placeholder="O que deseja encontrar?">
+                <img class="barra-pesquisa__icone-lupa" src="../assets/images/Icone-lupa.svg" alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="adicionar-produto">
+            <h1 class="adicionar-produto__titulo">Adicionar produto</h1>
+            <form class="adicionar-produto__form" action="">
+                <div class="adicionar-produto__container">
+                    <label class="adicionar-produto__label" for="url-produto-input">URL da imagem</label>
+                    <input class="adicionar-produto__input" type="text" id="url-produto-input">
+                </div>
+                <div class="adicionar-produto__container">
+                    <label class="adicionar-produto__label" for="categoria_produto-input">Categoria</label>
+                    <input class="adicionar-produto__input" type="text" id="categoria_produto-input" value="Consoles">
+                </div>
+                <div class="adicionar-produto__container">
+                    <label class="adicionar-produto__label" for="nome-produto-input">Nome do produto</label>
+                    <input class="adicionar-produto__input" type="text" id="nome-produto-input" value="Produto xyz">
+                </div>
+                <div class="adicionar-produto__container">
+                    <label class="adicionar-produto__label" for="preco-produto-input">Preço do produto</label>
+                    <input class="adicionar-produto__input" type="text" id="preco-produto-input" value="R$ 60,00">
+                </div>
+                <textarea class="adicionar-produto__descricao" name="" id="" cols="30" rows="10"
+                    placeholder="Descrição do produto"></textarea>
+                <div class="adicionar-produto__botao"><a class="adicionar-produto__botao__link" href="#">Adicionar
+                        produto</a></div>
+            </form>
+        </section>
+
+        <section class="comunicacao">
+            <div class="comunicacao-geral">
+                <img class="comunicacao-geral__logo" src="../assets/images/logo.png" alt="">
+                <ul class="comunicacao-geral__lista">
+                    <li class="comunicacao-geral__item"><a class="comunicacao-geral__link" href="#">Quem somos nós</a>
+                    </li>
+                    <li class="comunicacao-geral__item"><a class="comunicacao-geral__link" href="#">Política de
+                            privacidade</a></li>
+                    <li class="comunicacao-geral__item"><a class="comunicacao-geral__link" href="#">Programa
+                            fidelidade</a></li>
+                    <li class="comunicacao-geral__item"><a class="comunicacao-geral__link" href="#">Nossas lojas</a>
+                    </li>
+                    <li class="comunicacao-geral__item"><a class="comunicacao-geral__link" href="#">Quero ser
+                            franqueado</a></li>
+                    <li class="comunicacao-geral__item"><a class="comunicacao-geral__link" href="#">Anuncie aqui</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="fale-conosco" action="">
+                <h2 class="fale-conosco__titulo">Fale conosco</h2>
+                <div class="fale-conosco__nome-container">
+                    <label class="fale-conosco__nome-babel" for="nome">Nome</label>
+                    <input class="fale-conosco__nome-input" type="text" name="" id="nome">
+                </div>
+                <textarea class="fale-conosco__mensagem" name="" id="" cols="30" rows="6"
+                    placeholder="Escreva sua mensagem"></textarea>
+                <input class="fale-conosco__botao" type="submit" value="Enviar mensagem">
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <h3 class="rodape__titulo">Desenvolvido por Rafael Firmino</h3>
+            <p class="rodape__ano-criacao">2023</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
