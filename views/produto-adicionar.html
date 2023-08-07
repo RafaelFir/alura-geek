@@ -34,22 +34,26 @@
     <main>
         <section class="adicionar-produto">
             <h1 class="adicionar-produto__titulo">Adicionar produto</h1>
-            <form class="adicionar-produto__form" action="">
+            <form class="adicionar-produto__form" action="" data-form>
                 <div class="adicionar-produto__container">
                     <label class="adicionar-produto__label" for="url-produto-input">URL da imagem</label>
-                    <input class="adicionar-produto__input" type="text" id="url-produto-input">
+                    <input class="adicionar-produto__input" type="text" id="url-produto-input" minlength="3" required
+                        data-url-imagem>
                 </div>
                 <div class="adicionar-produto__container">
                     <label class="adicionar-produto__label" for="categoria_produto-input">Categoria</label>
-                    <input class="adicionar-produto__input" type="text" id="categoria_produto-input" value="Consoles">
+                    <input class="adicionar-produto__input" type="text" id="categoria_produto-input" minlength="3"
+                        required data-categoria>
                 </div>
                 <div class="adicionar-produto__container">
                     <label class="adicionar-produto__label" for="nome-produto-input">Nome do produto</label>
-                    <input class="adicionar-produto__input" type="text" id="nome-produto-input" value="Produto xyz">
+                    <input class="adicionar-produto__input" type="text" id="nome-produto-input" minlength="3" required
+                        data-nome>
                 </div>
                 <div class="adicionar-produto__container">
                     <label class="adicionar-produto__label" for="preco-produto-input">Preço do produto</label>
-                    <input class="adicionar-produto__input" type="text" id="preco-produto-input" value="R$ 60,00">
+                    <input class="adicionar-produto__input" type="text" id="preco-produto-input" minlength="1" required
+                        data-preco>
                 </div>
                 <textarea class="adicionar-produto__descricao" name="" id="" cols="30" rows="10"
                     placeholder="Descrição do produto"></textarea>
@@ -95,7 +99,7 @@
             <p class="rodape__ano-criacao">2023</p>
         </div>
     </footer>
-
+    <script type="module" src="../controllers/cria-produto-controller.js"></script>
 </body>
 
 </html>

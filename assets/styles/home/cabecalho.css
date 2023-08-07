@@ -33,6 +33,7 @@
 
 .cabecalho__barra-pesquisa__input::placeholder {
     color: #A2A2A2;
+    font-size: 0.99rem;
 }
 
 .cabecalho__barra-pesquisa__input:active {
@@ -49,6 +50,10 @@
     width: 2rem;
     margin-right: 1rem;
     margin-top: 0.2rem;
+}
+
+.botao-login {
+    text-decoration: none;
 }
 
 .cabecalho__botao-login {

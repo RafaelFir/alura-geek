@@ -1,0 +1,148 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_6FDXGY9J6y4.png",
+            "categoria": "star-wars"
+        },
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_epRFE_hBNjo.png",
+            "categoria": "star-wars"
+        },
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_KeGToDVN0l4.png",
+            "categoria": "star-wars"
+        },
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_4OHkK555s1A.png",
+            "categoria": "star-wars"
+        },
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_R8L1l9RN198.png",
+            "categoria": "star-wars"
+        },
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_1VV1MRafd7A.png",
+            "categoria": "star-wars"
+        },
+        {
+            "id": 1,
+            "nome": "Controle",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_0POwK6iAiRQ.png",
+            "categoria": "console"
+        },
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_caNzzoxls8Q.png",
+            "categoria": "console"
+        },
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_ZV7lnfyQLmA.png",
+            "categoria": "console"
+        },
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_wa5z9o9fgjw.png",
+            "categoria": "console"
+        },
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_Zjn4dT993-g.png",
+            "categoria": "console"
+        },
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_k-xYhI3-gJM (1).png",
+            "categoria": "console"
+        },
+        {
+            "id": 1,
+            "nome": "Controle",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_fMP-oCze3AY.png",
+            "categoria": "diversos"
+        },
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_bUgaIaZysH0.png",
+            "categoria": "diversos"
+        },
+        {
+            "id": 1,
+            "nome": "Sonic",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_sYVY_ZKwaxU.png",
+            "categoria": "diversos"
+        },
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_jMT6BrgBuXU.png",
+            "categoria": "diversos"
+        },
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_MxVkWPiJALs.png",
+            "categoria": "diversos"
+        },
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "alt": "produto",
+            "preco": 6000,
+            "imagemUrl": "../assets/images/unsplash_r27umXAelDc.png",
+            "categoria": "diversos"
+        }
+    ]
+}

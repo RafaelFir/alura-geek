@@ -23,17 +23,21 @@
             <div class="cabecalho__container-logo-barra-pesquisa">
                 <img class="cabecalho__logo" src="../assets/images/logo.png" alt="">
                 <div class="cabecalho__barra-pesquisa">
-                    <input class="cabecalho__barra-pesquisa__input" type="text" placeholder="O que deseja encontrar?">
-                    <button class="cabecalho__barra-pesquisa__icone">
-                        <img class="cabecalho__barra-pesquisa__icone__lupa" src="../assets/images/icon-loupe.png"
-                            alt="">
+                    <input class="cabecalho__barra-pesquisa__input" type="text" placeholder="O que deseja encontrar?"
+                        data-pesquisa>
+                    <button class="cabecalho__barra-pesquisa__icone" data-botao-pesquisa>
+                        <a href="../views/produtos-home.html">
+                            <img class="cabecalho__barra-pesquisa__icone__lupa" src="../assets/images/icon-loupe.png"
+                                alt="">
+                        </a>
                     </button>
                 </div>
             </div>
-            <div class="cabecalho__botao-login">
-                <p>Login</p>
-            </div>
-
+            <a class="botao-login" href="../views/home-login.html">
+                <div class="cabecalho__botao-login">
+                    <p>Login</p>
+                </div>
+            </a>
         </div>
     </header>
 
@@ -42,7 +46,7 @@
             <div class="banner__informacao">
                 <h2 class="banner__titulo">Dezembro promocional</h2>
                 <p class="banner__descricao">Produtos selecionados com 33% de desconto</p>
-                <button class="banner_botao">Ver consoles</button>
+                <a href="../views/produtos-home.html"><button class="banner_botao">Ver consoles</button></a>
             </div>
         </div>
     </section>
@@ -52,63 +56,10 @@
             <div class="container">
                 <div class="sessao-produtos__container-titulo-link">
                     <h2 class="sessao-produtos__titulo">Star Wars</h2>
-                    <a class="sessao-produtos__link" href="#">Ver tudo</a>
+                    <a class="sessao-produtos__link" href="../views/produtos-home.html">Ver tudo</a>
                 </div>
-                <div class="sessao-produtos__produtos">
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_6FDXGY9J6y4.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_epRFE_hBNjo.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_KeGToDVN0l4.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_4OHkK555s1A.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_R8L1l9RN198.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_1VV1MRafd7A.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
+                <div class="sessao-produtos__produtos sessao-star-wars" data-produtos-star-wars>
+
                 </div>
             </div>
         </section>
@@ -117,63 +68,10 @@
             <div class="container">
                 <div class="sessao-produtos__container-titulo-link">
                     <h2 class="sessao-produtos__titulo">Consoles</h2>
-                    <a class="sessao-produtos__link" href="#">Ver tudo</a>
+                    <a class="sessao-produtos__link" href="../views/produtos-home.html">Ver tudo</a>
                 </div>
-                <div class="sessao-produtos__produtos">
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_0POwK6iAiRQ.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_caNzzoxls8Q.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_ZV7lnfyQLmA.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_wa5z9o9fgjw.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_Zjn4dT993-g.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem"
-                            src="../assets/images/unsplash_k-xYhI3-gJM (1).png" alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
+                <div class="sessao-produtos__produtos" data-produtos-console>
+
                 </div>
             </div>
         </section>
@@ -182,63 +80,10 @@
             <div class="container">
                 <div class="sessao-produtos__container-titulo-link">
                     <h2 class="sessao-produtos__titulo">Diversos</h2>
-                    <a class="sessao-produtos__link" href="#">Ver tudo</a>
+                    <a class="sessao-produtos__link" href="../views/produtos-home.html">Ver tudo</a>
                 </div>
-                <div class="sessao-produtos__produtos">
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_fMP-oCze3AY.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_bUgaIaZysH0.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_sYVY_ZKwaxU.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_jMT6BrgBuXU.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_MxVkWPiJALs.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
-                    <div class="sessao-produtos__produto">
-                        <img class="sessao-produtos__produto__imagem" src="../assets/images/unsplash_r27umXAelDc.png"
-                            alt="Caneca Star Wars">
-                        <div class="sessao-produtos__produto__conteudo">
-                            <h3 class="sessao-produtos__produto__titulo">Caneca</h3>
-                            <p class="sessao-produtos__produto__preco">R$ 60,00</p>
-                            <a class="sessao-produtos__produto__link" href="#">Ver produto</a>
-                        </div>
-                    </div>
+                <div class="sessao-produtos__produtos" data-produtos-diversos>
+
                 </div>
             </div>
         </section>
@@ -281,6 +126,8 @@
             <p class="rodape__ano-criacao">2023</p>
         </div>
     </footer>
+    <script src="../controllers/mostra-produtos-categoria-controller.js" type="module"></script>
+
 </body>
 
 </html>
