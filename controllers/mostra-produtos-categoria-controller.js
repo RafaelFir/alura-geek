@@ -30,7 +30,8 @@ async function listarProdutosPorCategoria(lista, categoria) {
             }
         })
     } catch (error) {
-        lista.innerHTML = `<h2 class="mensagem__titulo">Não foi possível carregar a lista de vídeos</h2>`
+        console.log(error)
+        lista.innerHTML = `<h2 class="mensagem__titulo">Não foi possível carregar a lista de produtos</h2>`
     }
 
 }
